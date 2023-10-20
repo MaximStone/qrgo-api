@@ -5,7 +5,7 @@ module.exports = ({ env }) => ({
       syncDir: "config/sync/",
       minify: false,
       soft: false,
-      importOnBootstrap: env !== 'development',
+      importOnBootstrap: false,
       customTypes: [],
       excludedTypes: [],
       excludedConfig: [
